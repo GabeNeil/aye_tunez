@@ -21,8 +21,9 @@ const ChartContainer = () => {
   }
 
   return (
-    <div>
-    <SongList songs={songs} OnSongClick={OnSongClick} /> 
+    <div class="song-list-wrapper">
+        
+        <SongList songs={songs} OnSongClick={OnSongClick} /> 
       { selectedSong ? <SongDetails selectedSong={selectedSong}/> : null}
 </div>
   )
