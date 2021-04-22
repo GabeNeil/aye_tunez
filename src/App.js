@@ -18,7 +18,9 @@ function App() {
       <body>
         <div className="App">
           <header id="header">
-            <img id="logo" src={logo} alt="logo" width="100" height="80" />
+            <a href="javascript:history.go(0)">
+              <img id="logo" src={logo} alt="logo" width="100" height="80" />
+            </a>
             <h1 id="tag">Get Yer Tunez Here</h1>
           </header>
           <ChartContainer />
